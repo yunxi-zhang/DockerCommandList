@@ -7,5 +7,5 @@ This repo shows common commands used for docker
 `docker rmi $(docker images -f "dangling=true" -q)`
 
 # NPM Command List
-1. Show all symbolic links in node
+1. Show all symbolic links in node<br>
 `npm ls -g --depth=0 --link=true`
